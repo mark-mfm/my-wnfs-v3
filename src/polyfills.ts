@@ -47,6 +47,8 @@
  */
 import 'zone.js';  // Included with Angular CLI.
 
+//CRITICAL!!! - THIS IS NEEDED TO ACCOUNT FOR ERRORS THROWN WHEN CONNECTING TO WEBNATIVE FILE SYSTEM
+(window as any).Zone['__zone_symbol__ignoreConsoleErrorUncaughtError'] = true;
 
 /***************************************************************************************************
  * APPLICATION IMPORTS

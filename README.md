@@ -1,4 +1,7 @@
-# MyWnfsV3
+# My WNFS V3
+
+A Most Basic App (MBA) to learn and test Fission's [Webnative SDK](https://github.com/fission-codes/webnative) with Angular
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
